@@ -11,5 +11,6 @@ function enviarWhats(event) {
     const url = `https://wa.me/${telefone}?text=${msgFormatada}`
 
     window.open(url, '_blank')
+    
 }
 
